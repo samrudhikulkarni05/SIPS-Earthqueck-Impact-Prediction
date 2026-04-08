@@ -1,0 +1,5 @@
+{
+  "name": "Seismic Intelligence & Prediction System (SIPS)",
+  "description": "A production-ready earthquake prediction and analysis dashboard featuring ML-based risk assessment, live global maps, and an AI-powered seismic assistant.",
+  "requestFramePermissions": ["geolocation"]
+}
