@@ -23,26 +23,22 @@ The project has been expanded to include a Python implementation, optimized for 
    streamlit run app.py
    ```
 
-## ⚛️ React Version (Preview)
-The live preview in this environment uses the React + TypeScript stack for high-performance interactivity.
-
-### Running the React Version Locally
-1. Install dependencies:
-   ```bash
-   npm install
-   ```
-2. Start the development server:
-   ```bash
-   npm run dev
-   ```
 
 ## 🛠️ Tech Stack
-- **Frontend**: React 19, TypeScript, Vite
-- **Backend (Python)**: Streamlit, Pandas, Plotly
-- **Styling**: Tailwind CSS 4, Glassmorphism UI
-- **Animations**: Motion (formerly Framer Motion)
-- **Maps**: React Leaflet, Leaflet.js
-- **Charts**: Recharts
+
+Technology	    Purpose
+
+Streamlit	-    The core framework for the web interface and navigation.
+
+Pandas	   -   Used for data manipulation, filtering, and managing seismic records.
+
+Plotly      -    Express	Powers the interactive charts and histograms in the Data Insights section.
+
+NumPy	      -   Handles the mathematical calculations for the Prediction Lab risk engine.
+
+st.map	   -    Streamlit's built-in mapping tool for geospatial visualization.
+
+Custom CSS	-   Injected via Markdown to maintain the "Deep Ocean" visual identity.
+
 
 ---
-**Developed by Samrudhi Kulkarni**
